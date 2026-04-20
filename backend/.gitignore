@@ -1,0 +1,25 @@
+# Keep only main.py and requirements.txt
+
+# Exclude all Python files except main.py
+*.py
+!main.py
+
+# Exclude directories
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+.env
+.env.local
+.env.*.local
+
+# Exclude system files
+.DS_Store
+Thumbs.db

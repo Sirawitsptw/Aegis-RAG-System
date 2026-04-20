@@ -1,0 +1,30 @@
+# Exclude all files except main.py
+*
+!main.py
+
+# Keep essential files
+!requirements.txt
+
+# Exclude directories
+.git/
+.gitignore
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+.env.local
+.env.*.local
+
+# Exclude specific files
+test*.py
+debug*.py
+Dockerfile
+docker-compose.yml
+.dockerignore
